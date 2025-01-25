@@ -9,35 +9,18 @@ class Chef
 {
 
 public:
-    Chef(string);
+    Chef();
+    Chef(string name);
     ~Chef();
     string getName();
-    int makeSalad(int);
-    int makeSoup(int);
+    int makeSalad(int aines);
+    int makeSoup(int aines);
 
 protected:
     string chefName;
 
 };
 
-class ItalianChef : public Chef
-{
-
-public:
-
-    ItalianChef(string);
-    ~ItalianChef();
-    bool askSecret(string, int, int);
-
-private:
-
-    string password = "pizza";
-    int flour;
-    int water;
-    int makePizza();
-
-
-};
 
 
 

@@ -5,7 +5,9 @@ CONFIG -= qt
 
 SOURCES += \
         chef.cpp \
+        italianchef.cpp \
         main.cpp
 
 HEADERS += \
-    chef.h
+    chef.h \
+    italianchef.h
